@@ -1,10 +1,10 @@
 import { useSelector } from "react-redux";
-import { selectFilteredContacts } from "../../redux/contactsSlice";
-import { Contact } from "../Contact/Contact";
+import { selectFilteredContacts } from "../../redux/contacts/contactsSlice";
+import Contact from "../Contact/Contact";
 import css from "./ContactList.module.css";
 import { nanoid } from "nanoid";
 
-export const ContactList = () => {
+const ContactList = () => {
   const filteredContacts = useSelector(selectFilteredContacts);
 
   return filteredContacts.length > 0 ? (
@@ -19,3 +19,5 @@ export const ContactList = () => {
     <p>Phonebook is empty</p>
   );
 };
+
+export default ContactList;
