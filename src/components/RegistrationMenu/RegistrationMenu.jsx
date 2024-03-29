@@ -4,28 +4,25 @@ import { NavLink } from "react-router-dom";
 
 const RegistrationMenu = () => {
   return (
-    <ul className={css.listLink}>
-      <li>
-        <NavLink
-          className={({ isActive }) => {
-            return clsx(css.link, isActive && css.active);
-          }}
-          to="/register"
-        >
-          Register
-        </NavLink>
-      </li>
-      <li>
-        <NavLink
-          className={({ isActive }) => {
-            return clsx(css.link, isActive && css.active);
-          }}
-          to="/login"
-        >
-          LogIn
-        </NavLink>
-      </li>
-    </ul>
+    <div className={css.listLink}>
+      <NavLink
+        className={({ isActive }) => {
+          return clsx(css.link, isActive && css.active);
+        }}
+        to="/register"
+      >
+        Register
+      </NavLink>
+
+      <NavLink
+        className={({ isActive }) => {
+          return clsx(css.link, isActive && css.active);
+        }}
+        to="/login"
+      >
+        LogIn
+      </NavLink>
+    </div>
   );
 };
 

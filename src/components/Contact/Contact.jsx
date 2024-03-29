@@ -31,6 +31,13 @@ const Contact = ({ contacts: { name, number, id } }) => {
       >
         Delete
       </button>
+      {/* <button
+        type="button"
+        className={css.button}
+        onClick={() => dispatch(changeContact(id))}
+      >
+        Edit
+      </button> */}
     </div>
   );
 };

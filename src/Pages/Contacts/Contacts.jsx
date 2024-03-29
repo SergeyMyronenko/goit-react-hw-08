@@ -7,6 +7,7 @@ const Contacts = () => {
     <div>
       <ContactForm />
       <SearchBox />
+
       <ContactList />
     </div>
   );
