@@ -13,10 +13,14 @@
   align-items: flex-start;
 }
 .formInputField {
+  border: 4px double black;
+  border-radius: 8px;
   width: 360px;
   height: 36px;
 }
 
 .button {
   padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid rgb(8, 216, 8);
 }

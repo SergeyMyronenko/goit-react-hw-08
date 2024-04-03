@@ -1,5 +1,5 @@
 .contactList {
-  width: 1192px;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -9,5 +9,5 @@
   padding: 16px;
 }
 .contactListItem {
-  width: 280px;
+  width: calc((100% - 36px) / 4);
 }

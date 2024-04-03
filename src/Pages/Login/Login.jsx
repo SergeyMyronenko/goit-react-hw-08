@@ -5,12 +5,7 @@ import Loader from "../../components/Loader/Loader";
 
 const Login = () => {
   const loader = useSelector(selectLoader);
-  return (
-    <div>
-      {loader && <Loader />}
-      <LoginForm />
-    </div>
-  );
+  return <div>{loader ? <Loader /> : <LoginForm />}</div>;
 };
 
 export default Login;

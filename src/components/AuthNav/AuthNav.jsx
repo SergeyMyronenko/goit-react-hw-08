@@ -1,8 +1,8 @@
-import css from "./RegistrationMenu.module.css";
+import css from "./AuthNav.module.css";
 import clsx from "clsx";
 import { NavLink } from "react-router-dom";
 
-const RegistrationMenu = () => {
+const AuthNav = () => {
   return (
     <div className={css.listLink}>
       <NavLink
@@ -26,4 +26,4 @@ const RegistrationMenu = () => {
   );
 };
 
-export default RegistrationMenu;
+export default AuthNav;

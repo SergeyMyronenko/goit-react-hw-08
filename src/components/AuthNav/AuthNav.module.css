@@ -1,7 +1,3 @@
-.navigate {
-  display: flex;
-  justify-content: space-between;
-}
 .listLink {
   display: flex;
   gap: 12px;

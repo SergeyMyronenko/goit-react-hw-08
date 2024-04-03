@@ -12,7 +12,6 @@
   align-items: center;
   border: 2px solid #000;
   border-radius: 16px;
-  width: 280px;
 }
 .paragraph {
   display: flex;
@@ -30,6 +29,6 @@
 .button {
   padding: 4px 16px;
   border-radius: 8px;
-  border: none;
+  border: 1px solid rgb(8, 216, 8);
   height: 36px;
 }
