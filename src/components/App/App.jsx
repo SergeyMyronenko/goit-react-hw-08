@@ -12,10 +12,10 @@ import css from "./App.module.css";
 import Layout from "../Layout/Layout";
 import AppBar from "../AppBar/AppBar";
 
-const Contacts = lazy(() => import("../../Pages/Contacts/Contacts"));
-const Login = lazy(() => import("../../Pages/Login/Login"));
-const Register = lazy(() => import("../../Pages/Register/Register"));
-const Home = lazy(() => import("../../Pages/Home/Home"));
+const Contacts = lazy(() => import("../../pages/Contacts/Contacts"));
+const Login = lazy(() => import("../../pages/Login/Login"));
+const Register = lazy(() => import("../../pages/Register/Register"));
+const Home = lazy(() => import("../../pages/Home/Home"));
 
 const App = () => {
   const dispatch = useDispatch();
