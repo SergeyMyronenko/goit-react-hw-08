@@ -16,13 +16,14 @@ const SearchBox = () => {
 
   return (
     <div className={css.searchBar}>
-      <label htmlFor={searchId}>Find contacts by name</label>
+      <label htmlFor={searchId}>Find contacts</label>
       <input
         id={searchId}
         className={css.textInput}
         type="text"
         value={filteredName}
         onChange={searchInput}
+        placeholder="Enter name or number"
       />
     </div>
   );
