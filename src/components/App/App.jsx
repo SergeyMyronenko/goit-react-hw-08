@@ -7,7 +7,7 @@ import { refreshUser } from "../../redux/auth/operations";
 import RestrictedRoute from "../RestrictedRoute";
 import { selectIsRefreshing } from "../../redux/auth/selectors";
 import Loader from "../Loader/Loader";
-import PrivateRoute from "../PrivatRoute";
+import PrivateRoute from "../PrivateRoute";
 import css from "./App.module.css";
 import Layout from "../Layout/Layout";
 

@@ -5,11 +5,11 @@ import { nanoid } from "nanoid";
 import { useEffect } from "react";
 import { fetchContacts } from "../../redux/contacts/operations";
 import { selectFilteredContacts } from "../../redux/contacts/selectors";
-import { selectIsLogged } from "../../redux/auth/selectors";
+import { selectIsLoggedIn } from "../../redux/auth/selectors";
 
 const ContactList = () => {
   const filteredContacts = useSelector(selectFilteredContacts);
-  const isloggedIn = useSelector(selectIsLogged);
+  const isloggedIn = useSelector(selectIsLoggedIn);
   const dispatch = useDispatch();
 
   useEffect(() => {
